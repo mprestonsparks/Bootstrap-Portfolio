@@ -1,0 +1,148 @@
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("images/manhattan.jpg");
+    }
+    html {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+    }
+
+    .bg {
+        /* background-image: url("images/manhattan"); */
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-attachment: fixed;
+    }
+
+    .navbar {
+        background-color: rgba(0, 0, 0,);
+        color: khaki;
+    }
+       
+   .nav-link {
+       color: khaki;
+       font-family: 'Montserrat', sans-serif;
+        /* float: right; */
+   }
+   
+    #footerDiv {
+        text-align: center;
+        background-color: rgba(0, 0, 0);
+        min-height: 5vh;
+        color: khaki;
+        padding-top: 0.5%;
+     }
+
+    #row1 {
+        background-color: rgba(0, 0, 0, .8);
+        text-align: center;
+    }
+
+    #row2 {
+        background-image: url(images/manhattan.jpg);
+        text-align:center;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+
+    .navbar-brand {
+        font-weight: bold;
+        font-family: 'Major Mono Display', 'Times New Roman', Times, serif;
+        color: #E9D863;
+    }
+
+    .contentSection {
+    padding: 5% 5% 5% 5%;
+    margin-top: 5%;
+    text-align: left;
+    border-style: solid;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 1.5px solid darkgrey;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-justify: inter-word;
+
+    }
+
+    h1 {
+        color: #f6f6f6;
+        text-shadow: -1px -1px 0 #000000;
+        font-size: 200%;
+        font-family: 'Major Mono Display', 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    #row3 {
+        background-color: yellow;
+    }
+
+    .index img {
+        padding: 0 0 2% 0;
+    }
+
+    .portfolio img {
+        /* padding: 5% 2.5% 5% 2.5%; */
+        margin: 5% 2.5% 5% 2.5%;
+        border: 10px solid #e5e5e5;
+        
+    }
+
+    hr {
+        border: none;
+        color: khaki;
+        background-color: khaki;
+        height: 3px;
+        margin-bottom: 30px;
+        box-shadow: 5px 5px 5px #000000;
+    }
+
+    .portfolio h2 {
+        position: absolute;   
+        left: calc(50% + 10px);
+        top: 75%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        min-width: calc(95% - 10px);
+        color: #E9D863;
+        font-family: 'Major Mono Display', 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    .contentSection, .contact {
+        width: 100%;
+    }
+
+    .contentSection input {
+        width: 40%;
+        /* max-width: 550px; */
+    }
+
+    .contentSection textarea {
+        width: 40%;
+        /* max-width: 550px; */
+    }
+
+    #submitButton {
+        width: 20%;
+
+        -webkit-animation-name: example;
+        -webkit-animation-duration: 4s; 
+        animation-name: example;
+        animation-duration: 4s;
+        }
+        
+        @keyframes example {
+        0%   {background-color:rgba(240, 237, 83, 0.979); left:0px; top:0px;}
+        25%  {background-color:rgba(223, 220, 37, 0.822); top:0px;}
+        50%  {background-color:rgb(181, 189, 112); top:200px;}
+        75%  {background-color:rgb(195, 196, 160); top:200px;}
+        100% {background-color:rgb(236, 236, 231); top:0px;}
+        }
