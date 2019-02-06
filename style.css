@@ -65,14 +65,23 @@
 
     .portfolio h2 {
         position: absolute;   
-        left: calc(50% + 10px);
-        top: 75%;
-        transform: translate(-50%, -50%);
+        left: 10px;
+        /* top: 75%; */
+        /* transform: translate(-50%, -50%); */ 
         text-align: center;
-        min-width: calc(95% - 10px);
+        /* min-width: calc(95% - 10px); */
         color: #E9D863;
         font-family: 'Major Mono Display', 'Times New Roman', Times, serif;
         font-weight: bold;
+        font-size: 1em;
+        width: 100%;
+        bottom: 10%;
+    }
+
+    .img-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
     }
 
     .contentSection, .contact {
