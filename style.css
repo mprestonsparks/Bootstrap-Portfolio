@@ -4,31 +4,6 @@
         padding: 0;
         background-image: url("images/manhattan.jpg");
     }
-    html {
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-    }
-
-    .bg {
-        /* background-image: url("images/manhattan"); */
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: auto;
-        background-attachment: fixed;
-    }
-
-    .navbar {
-        background-color: rgba(0, 0, 0,);
-        color: khaki;
-    }
-       
-   .nav-link {
-       color: khaki;
-       font-family: 'Montserrat', sans-serif;
-        /* float: right; */
-   }
    
     #footerDiv {
         text-align: center;
@@ -38,11 +13,6 @@
         padding-top: 0.5%;
      }
 
-    #row1 {
-        background-color: rgba(0, 0, 0, .8);
-        text-align: center;
-    }
-
     #row2 {
         background-image: url(images/manhattan.jpg);
         text-align:center;
@@ -50,15 +20,9 @@
         margin-bottom: 0%;
     }
 
-    .navbar-brand {
-        font-weight: bold;
-        font-family: 'Major Mono Display', 'Times New Roman', Times, serif;
-        color: #E9D863;
-    }
-
     .contentSection {
     padding: 5% 5% 5% 5%;
-    margin-top: 5%;
+    margin: 5% 0 5% 0;
     text-align: left;
     border-style: solid;
     font-family: 'Montserrat', sans-serif;
@@ -80,16 +44,11 @@
         font-weight: bold;
     }
 
-    #row3 {
-        background-color: yellow;
-    }
-
     .index img {
         padding: 0 0 2% 0;
     }
 
     .portfolio img {
-        /* padding: 5% 2.5% 5% 2.5%; */
         margin: 5% 2.5% 5% 2.5%;
         border: 10px solid #e5e5e5;
         
@@ -121,13 +80,11 @@
     }
 
     .contentSection input {
-        width: 40%;
-        /* max-width: 550px; */
+        width: 60%;
     }
 
     .contentSection textarea {
-        width: 40%;
-        /* max-width: 550px; */
+        width: 60%;
     }
 
     #submitButton {
